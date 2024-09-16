@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Welcome.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <span class="navbar-brand text-white" id="user-name"></span>
+        <div class="ml-auto">
+            <button class="btn btn-outline-light" onclick="logout()">Logout</button>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h2 class="text-center">Welcome to Our API Guide!</h2>
+        <div class="alert alert-primary text-center">We're thrilled to have you on board!</div>
+        
+        <div class="card mb-4">
+            <div class="card-header">
+                Your Profile Information
+            </div>
+            <div class="card-body">
+                <p><strong>Name:</strong> <span id="user-real-name"></span></p>
+                <p><strong>Email:</strong> <span id="user-email"></span></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Tips for Using APIs in JavaScript :
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Understand the API Documentation:</strong> Always start by reading the API documentation to understand available endpoints and parameters.</li>
+                    <li class="list-group-item"><strong>Use Fetch for HTTP Requests:</strong> The Fetch API is a modern way to make network requests.</li>
+                    <li class="list-group-item"><strong>Handle Errors Gracefully:</strong> Always check for errors in your API responses.</li>
+                    <li class="list-group-item"><strong>Test with Postman:</strong> Use tools like Postman to test API requests and responses.</li>
+                    <li class="list-group-item"><strong>Keep Security in Mind:</strong> Avoid exposing sensitive information like API keys.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Your Company Name. All rights reserved.
+    </footer>
+
+    <script src="welcome.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

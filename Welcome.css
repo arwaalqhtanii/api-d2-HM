@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
