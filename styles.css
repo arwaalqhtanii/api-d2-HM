@@ -3,13 +3,13 @@ body {
     display: flex;
     align-items: center; 
     justify-content: center; 
-    background-color: #f8f9fa; 
+    background-color: #88b7e6; 
     overflow-x: hidden; 
 }
 .container {
     max-width: 400px; 
     padding: 20px;
     border-radius: 8px; 
-    background-color: white;
+    background-color: rgb(208, 230, 255);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
 }
