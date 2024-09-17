@@ -2,7 +2,7 @@
 
 const user = JSON.parse(localStorage.getItem('user'));
 if (!user) {
-    history.pushState(null, '', 'login.html');
+    history.pushState(null, '', 'Login.html');
     location.reload();
 } else {
     document.getElementById('user-name').textContent = `Hello My Friend 🤩 !  ${user.name}`;
@@ -13,6 +13,6 @@ if (!user) {
 function logout() {
     localStorage.removeItem('user');
 
-    history.pushState(null, '', 'login.html');
+    history.pushState(null, '', 'Login.html');
     location.reload();
 }
